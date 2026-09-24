@@ -1,0 +1,107 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "low-contrast",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-09-24T23:42:44.164Z",
+        "reason": "Claude: flagged pairs are white/blush text on the black sections and the cover photo; detector reads the bone page background"
+      },
+      {
+        "rule": "hero-eyebrow-chip",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-09-24T23:42:44.528Z",
+        "reason": "Claude: magazine section kicker (Cover story) is the editorial concept"
+      },
+      {
+        "rule": "broken-image",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-09-24T23:42:44.879Z",
+        "reason": "Claude: lightbox img gets src when opened"
+      },
+      {
+        "rule": "buried-raster",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-09-24T23:42:45.286Z",
+        "reason": "Claude: film grain overlay and the end-frame image that fades in after the video"
+      },
+      {
+        "rule": "all-caps-body",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-09-24T23:42:45.902Z",
+        "reason": "Claude: magazine coverlines and ticker labels, short by convention"
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-09-24T23:42:46.271Z",
+        "reason": "Claude: video frame is a hairline border hugging the clip by design"
+      },
+      {
+        "rule": "clipped-overflow-container",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-09-24T23:42:46.695Z",
+        "reason": "Claude: body lock during the cover gate; dark sections clip the ticker and parallax on purpose"
+      },
+      {
+        "rule": "overused-font",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-09-24T23:42:47.068Z",
+        "reason": "Claude: Instrument Serif italic only for editorial deck text next to Bodoni Moda"
+      },
+      {
+        "rule": "cream-palette",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-09-24T23:42:47.419Z",
+        "reason": "Claude: newsprint bone paper is the magazine concept"
+      },
+      {
+        "rule": "pulsing-dot",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-09-24T23:42:47.832Z",
+        "reason": "Claude: blinking REC dot on the video is literal"
+      },
+      {
+        "rule": "marquee",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-09-24T23:42:48.267Z",
+        "reason": "Claude: news ticker under the cover story is the editorial device"
+      }
+    ]
+  }
+}
